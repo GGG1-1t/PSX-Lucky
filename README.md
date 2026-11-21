@@ -1,0 +1,2 @@
+# Psx-Lucky
+lua rebuild
