@@ -27,6 +27,7 @@ local RUN=game:GetService("RunService")
 local LIT=game:GetService("Lighting")
 local lp=PS.LocalPlayer
 local pg=lp:WaitForChild("PlayerGui",15)
+if not pg then warn("PFEV: no playergui") return end
 
 pcall(function()
  for _,d in ipairs(pg:GetChildren()) do
